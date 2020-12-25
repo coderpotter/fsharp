@@ -50,3 +50,5 @@ Uses "Recursion" to iterate over collection data	| Uses "Loops" to iterate over 
 Execution order of statements is not so important |	Execution order of statements is very important
 Supports both "Abstraction over Data" and "Abstraction over Behavior" |	Supports only "Abstraction over Data"
 
+## About F#
+- 
