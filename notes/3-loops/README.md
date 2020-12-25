@@ -1,5 +1,5 @@
 # Types of loops
-## for...to and for...downto
+## for...to and for...downto loops
 A for loop is a repetition control structure that allows you to efficiently write a loop that needs to execute a specific number of times.
 The syntax of a for...to loop in F# programming language is −
 ```f#
@@ -11,8 +11,7 @@ The syntax of a for...downto loop in F# programming language is −
 for var = start-expr downto end-expr do
    ... // loop body
 ```
-- Example 1
-The following program prints out the numbers 1 - 20 −
+- Example 1 - The following program prints out the numbers 1 - 20 −
 ```f#
 let main() =
    for i = 1 to 20 do
@@ -43,8 +42,7 @@ i: 19
 i: 20
 ```
 
-- Example 2
-The following program counts in reverse and prints out the numbers 20 - 1 −
+- Example 2 - The following program counts in reverse and prints out the numbers 20 - 1 −
 ```f#
 let main() =
    for i = 20 downto 1 do
@@ -107,7 +105,7 @@ When you compile and execute the program, it yields the following output −
 10 squared is 100
 ```
 
-## while...do loops
+## while...do loop
 The while...do expression is used to perform iterative execution while a specified test condition is true.
 Syntax -
 ```f#
