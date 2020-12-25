@@ -2,12 +2,12 @@
 ## for...to and for...downto loops
 A for loop is a repetition control structure that allows you to efficiently write a loop that needs to execute a specific number of times.
 The syntax of a for...to loop in F# programming language is −
-```f#
+```
 for var = start-expr to end-expr do
    ... // loop body
 ```
 The syntax of a for...downto loop in F# programming language is −
-```f#
+```
 for var = start-expr downto end-expr do
    ... // loop body
 ```

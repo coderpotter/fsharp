@@ -9,7 +9,7 @@ Since functions can be used like any other variables, you can −
 
 ## Defining a Function
 Functions are defined by using the let keyword. A function definition has the following syntax −
-```f#
+```
 let [inline] function-name parameter-list [ : return-type ]
    = function-body
 ```
