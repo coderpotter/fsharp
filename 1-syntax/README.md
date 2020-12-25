@@ -69,3 +69,36 @@ while | Introduces a looping construct.
 with | Used together with the match keyword in pattern matching expressions. Also used in object expressions, record copying expressions, and type extensions to introduce member definitions, and to introduce exception handlers.
 yield | Used in a sequence expression to produce a value for a sequence.
 yield! | Used in a computation expression to append the result of a given computation expression to a collection of results for the containing computation expression.
+
+## F# Data Types
+- Integral Data Types
+F# Type | Size | Range | Remarks
+---|---
+sbyte | 1 byte | -128 to 127 | 8-bit signed integer
+byte | 1 byte | 0 to 255 | 8-bit unsigned integer
+int16 | 2 bytes | -32768 to 32767 | 16-bit signed integer
+uint16 | 2 bytes | 0 to 65,535 | 16-bit unsigned integer
+int/int32 | 4 bytes | -2,147,483,648 to 2,147,483,647 | 32-bit signed integer
+uint32 | 4 bytes | 0 to 4,294,967,295 | 32-bit unsigned integer
+int64 | 8 bytes | -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 | 64-bit signed integer
+uint64 | 8 bytes | 0 to 18,446,744,073,709,551,615 | 64-bit unsigned integer
+bigint | At least 4 bytes | any integer | arbitrary precision integer
+
+- Floating Point Data Types
+F# Type | Size | Range | Remarks
+---|---
+float32 | 4bytes | ±1.5e-45 to ±3.4e38 | 32-bit signed floating point number (7 significant digits)
+float | 8 bytes | ±5.0e-324 to ±1.7e308 | 64-bit signed floating point number (15-16 significant digits)
+decimal | 16 bytes | ±1.0e-28 to ±7.9e28 | 128-bit signed floating point number (28-29 significant digits)
+BigRational | At least 4 bytes | Any rational number | Arbitrary precision rational number. Using this type requires a reference to FSharp.PowerPack.dll
+
+- Text Data Types
+F# Type | Size | Range | Remarks
+---|---
+char | 2 bytes | U+0000 to U+ffff | Single unicode characters
+string | 20 + (2 * string's length) bytes | 0 to about 2 billion characters | Unicode text
+
+- Other Data Types
+F# Type | Size | Range | Remarks
+---|---
+bool | 1 byte | Only two possible values, true or false | Stores boolean values
