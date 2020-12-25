@@ -1,4 +1,4 @@
-## F# Keywords -
+# F# Keywords -
 Keyword | Description
 ---|---
 abstract | Indicates a method that either has no implementation in the type in which it is declared or that is virtual and has a default implementation.
@@ -70,7 +70,7 @@ with | Used together with the match keyword in pattern matching expressions. Als
 yield | Used in a sequence expression to produce a value for a sequence.
 yield! | Used in a computation expression to append the result of a given computation expression to a collection of results for the containing computation expression.
 
-## F# Data Types
+# F# Data Types
 - Integral Data Types
 
 F# Type | Size | Range | Remarks
