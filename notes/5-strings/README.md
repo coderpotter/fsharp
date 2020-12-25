@@ -36,6 +36,7 @@ When you compile and execute the program, it yields the following output −
 ## Basic Operators on Strings
 The following table shows the basic operations on strings −
 Value | Description
+---|---
 `collect : (char → string) → string → string` | Creates a new string whose characters are the results of applying a specified function to each of the characters of the input string and concatenating the resulting strings.
 `concat : string → seq<string> → string` | Returns a new string made by concatenating the given strings with a separator.
 `exists : (char → bool) → string → bool` | Tests if any character of the string satisfies the given predicate.
