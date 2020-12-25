@@ -8,6 +8,18 @@ Almost all of this content is taken from [tutorialspoint fsharp](https://www.tut
 - Functional programming languages are categorized into two groups −
   1. Pure Functional Languages − Support only the functional paradigms. For example − Haskell.
   2. Impure Functional Languages − Support the functional paradigms and imperative style programming. For example − LISP.
+- Data types -
+  1. Fundamental data types − Predefined data types which are used by the programmer directly to store only one value as per requirement, i.e., integer type, character type, or floating type.
+  2. Derived data types − Derived using built-in data type which are designed by the programmer to store multiple values of same type as per their requirement.
+  3. User-defined data types − These data types are derived using built-in data types which are wrapped into a single a data type to store multiple values of either same type or different type or both as per the requirement.
+- Lambda Calculus - A framework developed by Alonzo Church in 1930s to study computations with functions.
+    - Function creation - Church introduced the notation λx.E to denote a function in which ‘x’ is a formal argument and ‘E’ is the functional body. These functions can be of without names and single arguments.
+    - Function application − Church used the notation E1.E2 to denote the application of function E1 to actual argument E2. And all the functions are on single argument.
+  - Syntax of Lambda Calculus: Lamdba calculus includes three different types of expressions, i.e.,
+    - E :: = x(variables)
+    - | E1 E2(function application)
+    - | λx.E(function creation)
+    Where λx.E is called Lambda abstraction and E is known as λ-expressions.
 
 ## Introduction to Functional Programming (FP)
 - Characteristics of FP −
