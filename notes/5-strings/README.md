@@ -20,6 +20,7 @@ Unicode character | `\uXXXX` or `\UXXXXXXXX` (where X indicates a hexadecimal di
 The following two ways makes the compiler ignore the escape sequence −
 - Using the `@` symbol.
 - Enclosing the string in triple quotes.
+
 When a string literal is preceded by the `@` symbol, it is called a **verbatim string**. In that way, all escape sequences in the string are ignored, except that two quotation mark characters are interpreted as one quotation mark character.
 When a string is enclosed by triple quotes, then also all escape sequences are ignored, including double quotation mark characters.
 ```f#
