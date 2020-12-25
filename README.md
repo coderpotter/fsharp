@@ -58,3 +58,4 @@ Supports both "Abstraction over Data" and "Abstraction over Behavior" |	Supports
 - [keywords and data types](notes/1-syntax/README.md).
 - [variables](notes/2-variables/README.md).
 - [loops](notes/3-loops/README.md).
+- [functions](notes/4-functions/README.md).
