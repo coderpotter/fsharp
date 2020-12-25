@@ -55,7 +55,8 @@ Supports both "Abstraction over Data" and "Abstraction over Behavior" |	Supports
 - In F#, functions work like data types. You can declare and use a function in the same way like any other variable.
 - In general, an F# application does not have any specific entry point. The compiler executes all top-level statements in the file from top to bottom. However, to follow procedural programming style, many applications keep a single top level statement that calls the main loop.
 - An F# code file might begin with a number of open statements that is used to import namespaces.
-- [keywords and data types](notes/1-syntax/README.md).
-- [variables](notes/2-variables/README.md).
-- [loops](notes/3-loops/README.md).
-- [functions](notes/4-functions/README.md).
+- [keywords and data types](notes/1-syntax/README.md)
+- [variables](notes/2-variables/README.md)
+- [loops](notes/3-loops/README.md)
+- [functions](notes/4-functions/README.md)
+- [strings](notes/5-strings/README.md)
