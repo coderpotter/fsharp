@@ -51,4 +51,8 @@ Execution order of statements is not so important |	Execution order of statement
 Supports both "Abstraction over Data" and "Abstraction over Behavior" |	Supports only "Abstraction over Data"
 
 ## About F#
-- 
+- Basic syntax of F# can be found in [this file](1-syntax/intro.fsx) (taken from [here](https://fsharpforfunandprofit.com/posts/fsharp-in-60-seconds//)).
+- In F#, functions work like data types. You can declare and use a function in the same way like any other variable.
+- In general, an F# application does not have any specific entry point. The compiler executes all top-level statements in the file from top to bottom. However, to follow procedural programming style, many applications keep a single top level statement that calls the main loop.
+- An F# code file might begin with a number of open statements that is used to import namespaces.
+- F# syntax can be found [here](1-syntax/README.md)
