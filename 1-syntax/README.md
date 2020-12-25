@@ -72,6 +72,7 @@ yield! | Used in a computation expression to append the result of a given comput
 
 ## F# Data Types
 - Integral Data Types
+
 F# Type | Size | Range | Remarks
 ---|---
 sbyte | 1 byte | -128 to 127 | 8-bit signed integer
@@ -85,6 +86,7 @@ uint64 | 8 bytes | 0 to 18,446,744,073,709,551,615 | 64-bit unsigned integer
 bigint | At least 4 bytes | any integer | arbitrary precision integer
 
 - Floating Point Data Types
+
 F# Type | Size | Range | Remarks
 ---|---
 float32 | 4bytes | ±1.5e-45 to ±3.4e38 | 32-bit signed floating point number (7 significant digits)
@@ -93,12 +95,14 @@ decimal | 16 bytes | ±1.0e-28 to ±7.9e28 | 128-bit signed floating point numbe
 BigRational | At least 4 bytes | Any rational number | Arbitrary precision rational number. Using this type requires a reference to FSharp.PowerPack.dll
 
 - Text Data Types
+
 F# Type | Size | Range | Remarks
 ---|---
 char | 2 bytes | U+0000 to U+ffff | Single unicode characters
 string | 20 + (2 * string's length) bytes | 0 to about 2 billion characters | Unicode text
 
 - Other Data Types
+
 F# Type | Size | Range | Remarks
 ---|---
 bool | 1 byte | Only two possible values, true or false | Stores boolean values
