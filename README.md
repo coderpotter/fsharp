@@ -63,3 +63,4 @@ Supports both "Abstraction over Data" and "Abstraction over Behavior" |	Supports
 - [options](notes/6-options/README.md)
 - [tuples](notes/7-tuples/README.md)
 - [records](notes/8-records/README.md)
+- [lists](notes/9-lists/README.md)
