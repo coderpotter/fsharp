@@ -1,8 +1,10 @@
 # Learning Functional Programming with F#
 This repo is just notes on functional programming and F#. Basic programs helpful in learning F# might be added.
 
-## Acknowledgement
-Almost all of this content is taken from [tutorialspoint fsharp](https://www.tutorialspoint.com/fsharp/index.htm) and [tutorialspoint functional programming](https://www.tutorialspoint.com/functional_programming/index.htm)
+## Resources
+- [tutorialspoint functional programming](https://www.tutorialspoint.com/functional_programming/index.htm)
+- [*Real-World Functional Programming* by Tomas Petricek and Jon Skeet](https://www.manning.com/books/real-world-functional-programming)
+- [*Programming F# 3.0* by Chris Smith](https://www.oreilly.com/library/view/programming-f-30/9781449326036/)
 
 ## Some Need-to-Knows
 - Functional programming languages are categorized into two groups −
@@ -55,13 +57,4 @@ Supports both "Abstraction over Data" and "Abstraction over Behavior" |	Supports
 - In F#, functions work like data types. You can declare and use a function in the same way like any other variable.
 - In general, an F# application does not have any specific entry point. The compiler executes all top-level statements in the file from top to bottom. However, to follow procedural programming style, many applications keep a single top level statement that calls the main loop.
 - An F# code file might begin with a number of open statements that is used to import namespaces.
-- [keywords and data types](notes/1-syntax/README.md)
-- [variables](notes/2-variables/README.md)
-- [loops](notes/3-loops/README.md)
-- [functions](notes/4-functions/README.md)
-- [strings](notes/5-strings/README.md)
-- [options](notes/6-options/README.md)
-- [tuples](notes/7-tuples/README.md)
-- [records](notes/8-records/README.md)
-- [lists](notes/9-lists/README.md)
-- [sequences](notes/10-sequences/README.md)
+- Basic F# syntax can be found [here](https://www.tutorialspoint.com/fsharp/index.htm).
